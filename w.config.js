@@ -58,9 +58,9 @@ var devPlugins =  [
   // 允许错误不打断程序, 仅开发模式需要
   new webpack.NoErrorsPlugin(),
   // 打开浏览器页面
-  new OpenBrowserPlugin({
+  /*new OpenBrowserPlugin({
     url: 'http://127.0.0.1:8080/'
-  }),
+  }),*/
   // css打包
   new ExtractTextPlugin('css.css', {
     allChunks: true
